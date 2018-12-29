@@ -21,3 +21,8 @@
     float: none !important;
 
 }
+.logo {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
