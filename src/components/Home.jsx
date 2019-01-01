@@ -7,12 +7,10 @@ export default class Home extends Component {
     render() {
         return (
             <Grid>
-                <Jumbotron>
-                    <h1>Honor Agency</h1>
-                </Jumbotron>
-                <Link to="/about">
+                <h2>Two to design for you!</h2>
+                {/*<Link to="/about">
                 <Button bsStyle="primary">About</Button>
-                </Link>
+                </Link>*/} 
             </Grid>
         )
     }

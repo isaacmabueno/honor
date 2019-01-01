@@ -13,7 +13,7 @@ export default class CustomNavbar extends Component {
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
-                <Navbar.Collapse>
+                {/*<Navbar.Collapse>
                     <Nav pullRight>
                         <NavItem eventKey={1} componentClass={Link} href="/" to='/'>
                             Home
@@ -28,7 +28,7 @@ export default class CustomNavbar extends Component {
                             Contact
                         </NavItem>
                     </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse>*/} 
             </Navbar>
         )
     }
