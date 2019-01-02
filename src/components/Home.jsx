@@ -12,6 +12,9 @@ export default class Home extends Component {
                     <Col md={12}>
                         <h2 className='text-center'>Two to design for you!</h2>
                     </Col>
+                    <Col xs={6} xsOffset={3}>
+                        <p className='text-center'>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq</p>
+                    </Col>
                 </Row>
 
                 <Row className='client-listing'>
@@ -21,6 +24,15 @@ export default class Home extends Component {
                     </Col>
                     <Col md={6}>
                         <Image src='assets/ptfa.jpg' />
+                        <div className='overlay'></div>
+                    </Col>
+                    
+                    <Col md={6}>
+                        <Image src='assets/DOOM.jpg' />
+                        <div className='overlay'></div>
+                    </Col>
+                    <Col md={6}>
+                        <Image src='assets/trecutr.jpg' />
                         <div className='overlay'></div>
                     </Col>
                 

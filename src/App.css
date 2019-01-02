@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
  h2 {
   font-family: 'Playfair Display', serif;
-  margin-top: 20rem;
-  margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+ }
+ p {
+  margin-bottom: 8rem;
  }
  .client-listing img {
    width: 100%;
  }
- .client-listing {
+ .client-listing > div{
    padding: 0 !important;
  }
  .overlay {
-  
+  background-color:black;
  }
  .rw-wrapper{
 	position: relative;
