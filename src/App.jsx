@@ -5,7 +5,8 @@ import Home from './components/Home';
 import About from './components/About';
 import News from './components/News';
 import Contact from './components/Contact';
-import CustomNavbar from './components/CustomNavbar'
+import CustomNavbar from './components/CustomNavbar';
+import FooterPage from './components/FooterPage';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path='/about' component={About} />
           <Route path='/news' component={News} />
           <Route path ='/contact' component={Contact} />
+          <FooterPage />
         </div>
       </Router>
     );
