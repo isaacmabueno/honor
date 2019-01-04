@@ -23,14 +23,16 @@ export default class Home extends Component {
                         <div className='overlay'></div>
                     </Col>
                     <Col md={6}>
-                        <Image src='assets/ptfa.jpg' />
+                        <Image src='assets/DOOM.jpg' />
                         <div className='overlay'></div>
                     </Col>
                     
                     <Col md={6}>
-                        <Image src='assets/DOOM.jpg' />
+                        <Image src='assets/ptfa.jpg' />
                         <div className='overlay'></div>
                     </Col>
+                    
+                    
                     <Col md={6}>
                         <Image src='assets/trecutr.jpg' />
                         <div className='overlay'></div>
