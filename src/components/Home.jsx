@@ -19,48 +19,45 @@ export default class Home extends Component {
 
                 <Row className='client-listing'>
                     <Col md={6}>
+                    <figure class="overlay">
                         <Image src='assets/rubens.jpg' />
-                        <div className='overlay'></div>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
                     </Col>
                     <Col md={6}>
+                    <figure class="overlay">
                         <Image src='assets/DOOM.jpg' />
-                        <div className='overlay'></div>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
                     </Col>
                     
                     <Col md={6}>
+                    <figure class="overlay">
                         <Image src='assets/ptfa.jpg' />
-                        <div className='overlay'></div>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a target='_blank' href="http://www.presenttensefineales.com"></a>
+                    </figure>
                     </Col>
                     
                     
                     <Col md={6}>
+                    <figure class="overlay">
                         <Image src='assets/trecutr.jpg' />
-                        <div className='overlay'></div>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a target='_blank' href="http://trecutr.com"></a>
+                    </figure>                       
                     </Col>
-                
                 </Row>
-
-
-           
-                {/*<section className="rw-wrapper text-center">
-                    <h2 className="rw-sentence">
-                        <span>We specialize in </span>
-                        <div className="rw-words rw-words-1">
-                            <span>design</span>
-                            <span>development</span>
-                            <span>creativity</span>
-                            <span>graphics</span>
-                            <span>print</span>
-                            <span>etc</span>
-
-                        </div>
-                        <br/>
-                    </h2>
-        </section>*/}
-                {/*<Link to="/about">
-                <Button bsStyle="primary">About</Button>
-                </Link>*/} 
-                
             </Grid>
         )
     }
