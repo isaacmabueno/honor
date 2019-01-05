@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Karla');
+$headline-font: 'Playfair Display', serif;
+$main-font: 'Karla', sans-serif;
+$grey-light: rgba(128, 128, 128, 0.4);
+$grey: rgba(128, 128, 128, 1);
+
+ul {
+    list-style: none;
+    margin: 3rem;
+    text-align: left;
+    .center {
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        font-family: $main-font;
+        text-transform: uppercase;
+        color: $grey-light;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-size: 12px;
+        a {
+            color: $grey-light;
+            &:hover {
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition:.5s;
+                color: $grey;
+                list-style: none;
+            }
+        }
+    }   
+}
+.logo-footer {
+    width: 25%;
+    margin: 3rem;
+    text-align: center;
+}
+.fa-heart {
+    margin-right: 0 !important;
+    &:before {
+        color: red !important;
+    }
+}
