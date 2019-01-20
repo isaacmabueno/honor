@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Open+Sans:600|Playfair+Display:900');
 $headline-font: 'Playfair Display', serif;
+$main-font: 'Karla';
 
 
 .overlay {
@@ -72,18 +73,22 @@ $headline-font: 'Playfair Display', serif;
 		right: 0;
 		z-index: 3;
 	}
-	
-	&:hover > img,
 	&.hover > img {
-  		opacity: 0.3;
-  		transition: .4s;
+		opacity: 0.3;
+	  transition: .8s;
+  }
+	&:hover > img {
+		-moz-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		-o-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		transform: scale(1.05);
+		opacity: 0.3;
+		transition: 3s;
 	}
+	
 }
-
-
-
-
-
 
 
 
@@ -128,7 +133,7 @@ h2 {
 	color: rgba(0,0,0,0.4);
 	text-transform: uppercase;
 	text-align: center;
-	font-family: 'Karla';
+	font-family: $main-font;
 	&:last-child {
 		margin-bottom: 7rem;
 		font-size: 1.2rem;
@@ -143,7 +148,31 @@ h2 {
  }
  .overlay {
   background-color:black;
- }
+	.reveal {
+		opacity: 0;
+	}
+	span {
+	position: absolute;
+	left: 0;
+	color: #fff;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: 5rem;
+	}
+	&:hover .reveal {
+		opacity: 1;
+		padding: 90px 50px 50px;
+		transition: .3s;
+		font-size: 1.5rem;
+	}
+	.reveal::before {
+		content: '—';
+		position: absolute;
+		top: 45%;
+		
+	}
+}
  .rw-wrapper{
 	position: relative;
 	margin: 110px auto 0 auto;

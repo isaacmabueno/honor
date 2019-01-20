@@ -22,6 +22,8 @@ export default class Home extends Component {
                     <Col md={6}>
                     <figure class="overlay">
                         <Image src='assets/rubens.jpg' alt='Rubens Unisex' />
+                        <span>Rubens Unisex Barbershop</span>
+                        <span className='reveal'>Logo Identity & Web Design</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -31,6 +33,8 @@ export default class Home extends Component {
                     <Col md={6}>
                     <figure class="overlay">
                         <Image src='assets/DOOM.jpg' alt="Impending Doom Music" />
+                        <span>Impending Doom Music</span>
+                        <span className='reveal'>Entertainment Branding & Web Design</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -40,6 +44,8 @@ export default class Home extends Component {
                     <Col md={6}>
                     <figure class="overlay">
                         <Image src='assets/ptfa.jpg' alt="Present Tense Fine Ales" />
+                        <span>Present Tense Fine Ales</span>
+                        <span className='reveal'>Branding Identity & Web Design</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -49,6 +55,8 @@ export default class Home extends Component {
                     <Col md={6}>
                     <figure class="overlay">
                         <Image src='assets/trecutr.jpg' alt='Aesthetic Denver' />
+                        <span>Aesthetic Tree & Alternative Recycling</span>
+                        <span className='reveal'>Logo Identity & Web Design</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
