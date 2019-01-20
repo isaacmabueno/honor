@@ -12,15 +12,16 @@ export default class Home extends Component {
                     <Col md={12}>
                         <h2 className='text-center'>Two to design for you!</h2>
                     </Col>
-                    <Col xs={6} xsOffset={3}>
-                        <p className='text-center'>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliq</p>
+                    <Col xs={4} xsOffset={4}>
+                        <p className='text-center'>A husband and wife design and development shop. </p>
+                        <p>We create interactive experiences through beautiful and continual design</p>
                     </Col>
                 </Row>
 
                 <Row className='client-listing'>
                     <Col md={6}>
                     <figure class="overlay">
-                        <Image src='assets/rubens.jpg' />
+                        <Image src='assets/rubens.jpg' alt='Rubens Unisex' />
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -29,28 +30,25 @@ export default class Home extends Component {
                     </Col>
                     <Col md={6}>
                     <figure class="overlay">
-                        <Image src='assets/DOOM.jpg' />
+                        <Image src='assets/DOOM.jpg' alt="Impending Doom Music" />
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
                         <a href="#"></a>
                     </figure>
                     </Col>
-                    
                     <Col md={6}>
                     <figure class="overlay">
-                        <Image src='assets/ptfa.jpg' />
+                        <Image src='assets/ptfa.jpg' alt="Present Tense Fine Ales" />
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
                         <a target='_blank' href="http://www.presenttensefineales.com"></a>
                     </figure>
                     </Col>
-                    
-                    
                     <Col md={6}>
                     <figure class="overlay">
-                        <Image src='assets/trecutr.jpg' />
+                        <Image src='assets/trecutr.jpg' alt='Aesthetic Denver' />
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
