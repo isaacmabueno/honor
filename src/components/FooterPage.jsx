@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Footer, Nav, NavItem, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.min.css';
 import './FooterPage.scss';
 
