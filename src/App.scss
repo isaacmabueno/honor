@@ -235,3 +235,18 @@ h2 {
   25% { opacity: 0; height: 60px; }
   100% { opacity: 0; }
 }
+
+@media screen and (max-width: 479px) {
+	.overlay {
+	span {
+		padding: 1rem;
+		}
+	}
+	.reveal:before {
+		top: 22% !important;
+	}
+	&:hover .reveal {
+		padding: 40px 10px !important;
+		padding: 4rem 1rem;
+	}
+}

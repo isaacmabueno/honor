@@ -11,7 +11,7 @@ export default class Home extends Component {
                     <Col md={12}>
                         <h2 className='text-center'>Two to design for you!</h2>
                     </Col>
-                    <Col xs={4} xsOffset={4}>
+                    <Col xs={10} xsOffset={1} md={4} mdOffset={4}>
                         <p className='text-center'>A husband and wife design and development shop. </p>
                         <p>We create interactive experiences through beautiful & continual design</p>
                     </Col>
