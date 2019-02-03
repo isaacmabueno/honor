@@ -13,7 +13,7 @@ export default class Home extends Component {
                     </Col>
                     <Col xs={4} xsOffset={4}>
                         <p className='text-center'>A husband and wife design and development shop. </p>
-                        <p>We create interactive experiences through beautiful and continual design</p>
+                        <p>We create interactive experiences through beautiful & continual design</p>
                     </Col>
                 </Row>                
             </Grid>
