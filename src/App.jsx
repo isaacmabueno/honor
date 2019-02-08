@@ -13,7 +13,7 @@ class App extends Component {
         <div>
           <CustomNavbar />
           <Route exact path='/' component={Home} />
-          <Client client="Rubens Unisex Barbershop" projectDetails="Logo Identity & Web Design"/>
+          <Client/>
           <FooterPage />
         </div>
       </Router>
