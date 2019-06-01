@@ -10,8 +10,7 @@ class Clients extends React.Component {
             { name: 'Rubens Unisex Barbershop', projectDetails: 'Logo Identity & Web Design and Development' },
             { name: 'Impending Doom', projectDetails: 'Entertainment Branding and Web Design and Development' },
             { name: 'Present Tense Fine Ales', projectDetails: 'Branding Identity & Web Design and Development' },
-            { name: 'Aesthetic Tree & Alternative Recycling', projectDetails: 'Logo Identity & Web Design' },
-           
+            { name: 'Aesthetic Tree & Alternative Recycling', projectDetails: 'Logo Identity & Web Design' }
         ] 
     }
 
@@ -21,29 +20,29 @@ class Clients extends React.Component {
             <Row className='client-listing'>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/indoor-sciences.jpg' alt='Indoor Sciences' />
+                        <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
                         <span>{this.state.clients[0].name}</span>
                         <span className='reveal'>{this.state.clients[0].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="https://indoorsciences.com"></a>
                     </figure>
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/chitown-property-services.jpg' alt="Chitown Property Services" />
+                        <Image src='./assets/chitown-property-services.jpg' alt="Chitown Property Services" />
                         <span>{this.state.clients[1].name}</span>
                         <span className='reveal'>{this.state.clients[1].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
-                        <a href="#"></a>
+                        <a href="https://cps606.com"></a>
                     </figure>
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/rubens.jpg' alt='Rubens Unisex' />
+                        <Image src='./assets/rubens.jpg' alt='Rubens Unisex' />
                         <span>{this.state.clients[2].name}</span>
                         <span className='reveal'>{this.state.clients[0].projectDetails}</span>
                         <figcaption>
@@ -54,7 +53,7 @@ class Clients extends React.Component {
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/DOOM.jpg' alt="Impending Doom Music" />
+                        <Image src='./assets/DOOM.jpg' alt="Impending Doom Music" />
                         <span>{this.state.clients[3].name}</span>
                         <span className='reveal'>{this.state.clients[3].projectDetails}</span>
                         <figcaption>
@@ -65,7 +64,7 @@ class Clients extends React.Component {
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/ptfa.jpg' alt="Present Tense Fine Ales" />
+                        <Image src='./assets/ptfa.jpg' alt="Present Tense Fine Ales" />
                         <span>{this.state.clients[4].name}</span>
                         <span className='reveal'>{this.state.clients[4].projectDetails}</span>
                         <figcaption>
@@ -76,7 +75,7 @@ class Clients extends React.Component {
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='assets/trecutr.jpg' alt='Aesthetic Denver' />
+                        <Image src='./assets/trecutr.jpg' alt='Aesthetic Denver' />
                         <span>{this.state.clients[5].name}</span>
                         <span className='reveal'>{this.state.clients[5].projectDetails}</span>
                         <figcaption>
