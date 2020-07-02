@@ -5,6 +5,8 @@ class Clients extends React.Component {
     
     state = {
         clients: [ 
+            { name: 'Redden Properties', projectDetails: 'Branding Identity & Web Design and Development' },
+            { name: 'Desk 606', projectDetails: 'Logo Identity & Web Design and Development' },
             { name: 'Indoor Sciences', projectDetails: 'Web Design and Development' },
             { name: 'Chitown Property Services', projectDetails: 'Branding Identity & Web Design and Development' },
             { name: 'Rubens Unisex Barbershop', projectDetails: 'Logo Identity & Web Design and Development' },
@@ -18,7 +20,7 @@ class Clients extends React.Component {
         return (
         <Grid fluid={true}>
             <Row className='client-listing'>
-                <Col md={6}>
+            <Col md={6}>
                     <figure className="overlay">
                         <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
                         <span>{this.state.clients[0].name}</span>
@@ -31,9 +33,31 @@ class Clients extends React.Component {
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='./assets/chitown-property-services.jpg' alt="Chitown Property Services" />
+                        <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
                         <span>{this.state.clients[1].name}</span>
                         <span className='reveal'>{this.state.clients[1].projectDetails}</span>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a href="https://indoorsciences.com"></a>
+                    </figure>
+                </Col>
+                <Col md={6}>
+                    <figure className="overlay">
+                        <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
+                        <span>{this.state.clients[2].name}</span>
+                        <span className='reveal'>{this.state.clients[2].projectDetails}</span>
+                        <figcaption>
+                            <h3>View Project</h3>
+                        </figcaption>
+                        <a href="https://indoorsciences.com"></a>
+                    </figure>
+                </Col>
+                <Col md={6}>
+                    <figure className="overlay">
+                        <Image src='./assets/chitown-property-services.jpg' alt="Chitown Property Services" />
+                        <span>{this.state.clients[3].name}</span>
+                        <span className='reveal'>{this.state.clients[3].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -43,8 +67,8 @@ class Clients extends React.Component {
                 <Col md={6}>
                     <figure className="overlay">
                         <Image src='./assets/rubens.jpg' alt='Rubens Unisex' />
-                        <span>{this.state.clients[2].name}</span>
-                        <span className='reveal'>{this.state.clients[0].projectDetails}</span>
+                        <span>{this.state.clients[4].name}</span>
+                        <span className='reveal'>{this.state.clients[4].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -54,8 +78,8 @@ class Clients extends React.Component {
                 <Col md={6}>
                     <figure className="overlay">
                         <Image src='./assets/DOOM.jpg' alt="Impending Doom Music" />
-                        <span>{this.state.clients[3].name}</span>
-                        <span className='reveal'>{this.state.clients[3].projectDetails}</span>
+                        <span>{this.state.clients[5].name}</span>
+                        <span className='reveal'>{this.state.clients[5].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -65,8 +89,8 @@ class Clients extends React.Component {
                 <Col md={6}>
                     <figure className="overlay">
                         <Image src='./assets/ptfa.jpg' alt="Present Tense Fine Ales" />
-                        <span>{this.state.clients[4].name}</span>
-                        <span className='reveal'>{this.state.clients[4].projectDetails}</span>
+                        <span>{this.state.clients[6].name}</span>
+                        <span className='reveal'>{this.state.clients[6].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
@@ -76,8 +100,8 @@ class Clients extends React.Component {
                 <Col md={6}>
                     <figure className="overlay">
                         <Image src='./assets/trecutr.jpg' alt='Aesthetic Denver' />
-                        <span>{this.state.clients[5].name}</span>
-                        <span className='reveal'>{this.state.clients[5].projectDetails}</span>
+                        <span>{this.state.clients[7].name}</span>
+                        <span className='reveal'>{this.state.clients[7].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
