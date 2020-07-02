@@ -22,24 +22,24 @@ class Clients extends React.Component {
             <Row className='client-listing'>
             <Col md={6}>
                     <figure className="overlay">
-                        <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
+                        <Image src='./assets/redden-properties.jpg' alt='Redden Properties' />
                         <span>{this.state.clients[0].name}</span>
                         <span className='reveal'>{this.state.clients[0].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
-                        <a href="https://indoorsciences.com"></a>
+                        <a href="https://reddenproperties.com"></a>
                     </figure>
                 </Col>
                 <Col md={6}>
                     <figure className="overlay">
-                        <Image src='./assets/indoor-sciences.jpg' alt='Indoor Sciences' />
+                        <Image src='./assets/desk-606.jpg' alt='Desk 606' />
                         <span>{this.state.clients[1].name}</span>
                         <span className='reveal'>{this.state.clients[1].projectDetails}</span>
                         <figcaption>
                             <h3>View Project</h3>
                         </figcaption>
-                        <a href="https://indoorsciences.com"></a>
+                        <a href="https://desk606.com"></a>
                     </figure>
                 </Col>
                 <Col md={6}>
