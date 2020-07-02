@@ -110,7 +110,6 @@ class Clients extends React.Component {
                 </Col>
             </Row>
         </Grid>
-    
         );
     }
 }
