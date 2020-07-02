@@ -21,7 +21,7 @@ class FooterPage extends React.Component {
           </div>
           <div className="col-md-4">
             <ul className="center">      
-              <li>&copy; Honor Agency 2019</li>
+              <li>&copy; Honor Agency 2020</li>
               <li className='small'>Made with <i className="fa fa-heart"></i> in Chicago</li>
             </ul>
           </div>
