@@ -74,7 +74,7 @@ $main-font: 'Karla';
 		z-index: 3;
 	}
 	&.hover > img {
-		opacity: 0.3;
+		opacity: 0.2;
 	  transition: .8s;
   }
 	&:hover > img {
@@ -84,16 +84,11 @@ $main-font: 'Karla';
 		-ms-transform: scale(1.05);
 		-webkit-transform: scale(1.05);
 		transform: scale(1.05);
-		opacity: 0.3;
+		opacity: 0.2;
 		transition: 3s;
 	}
 	
 }
-
-
-
-
-
 
 .overlay:hover figcaption,
 .overlay.hover figcaption {
@@ -102,31 +97,11 @@ $main-font: 'Karla';
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h2 {
   font-family: $headline-font;
   margin-top: 5rem;
   margin-bottom: 2rem;
+  font-size: 1.8em;
  }
  p {
 	font-size: 1rem;
@@ -236,7 +211,7 @@ h2 {
   100% { opacity: 0; }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 50em) {
 	.overlay {
 	span {
 		padding: 1rem;
@@ -248,5 +223,12 @@ h2 {
 	&:hover .reveal {
 		padding: 40px 10px !important;
 		padding: 4rem 1rem;
+	}
+	h2 {
+		font-size: 1.5em;
+	   }
+	.overlay h3 {
+		font-size: 1em;
+		padding: 15px 20px;
 	}
 }
